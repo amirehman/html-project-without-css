@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+
+    <!-- <img srcset="./sizes/500.jpg 500w, ./sizes/1000.jpg 1000w, ./sizes/1500.jpg 1500w," alt="bird"> -->
+
+    <picture>
+        <source srcset="./sizes/500.jpg" media="(max-width: 500px)">
+        <source srcset="./sizes/1000.jpg" media="(max-width: 1000px)">
+        <source srcset="./sizes/1500.jpg" media="(max-width: 1500px)">
+        <img src="./sizes/original.jpg" alt="image">
+    </picture>
+
+</body>
+</html>

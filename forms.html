@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <form action="#">
+
+        <fieldset>
+            <legend>Persoanl Info</legend>
+        <div>
+            <label>
+                <span>Full Name</span>
+                <input type="text" placeholder="full name" name="fullname" id="name" required autocomplete="off">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <span>Email</span>
+                <input type="email" placeholder="info@example.com" name="email" id="email">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <span>Phone</span>
+                <input type="tel" placeholder="0878548545" name="myphone" id="phone" autofocus>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <span>Number</span>
+                <input type="number" placeholder="number" name="1number" id="number" max="11" min="0">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <span>Image</span>
+                <input type="file" name="image" id="image" >
+            </label>
+        </div>
+        <br>
+        <div>
+            <span>Gender</span>
+            <br>
+            <label>
+                <input type="radio" name="gender" id="gender" >
+                <span>Male</span>
+            </label>
+            <label>
+                <input type="radio" name="gender" id="gender" checked>
+                <span>Female</span>
+            </label>
+            
+        </div>        
+
+        <div>
+            <span>Interests</span>
+            <br>
+            <label>
+                <input type="checkbox" name="interests" id="interests">
+                Sport
+            </label>
+            <br>
+            <input type="checkbox" name="interests" id="interests">
+            Reading
+            <br>
+            <input type="checkbox" name="interests" id="interests">
+            Kabaddi
+        </div>  
+
+        <br>
+        <br>
+        <select>
+            <option value="dubai">Dubai</option>
+            <option selected value="abu dhabi">Abu Dhabi</option>
+            <option value="sharjah">Sharjah</option>
+            <option disabled value="ajman">Ajman</option>
+        </select>
+        <br>
+        <br>
+
+        <progress value="80" max="100"></progress>
+
+        <label>
+            <span>Comment</span>
+            <br>
+            <textarea name="comment" cols="50" rows="10"></textarea>
+        </label>
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Education</legend>
+    <div>
+        <label>
+            <span>College</span>
+            <input type="text" placeholder="full name" name="fullname" id="name">
+        </label>
+    </div>
+    <br>
+    
+    <div>
+        <label>
+            <span>CV</span>
+            <input type="file" name="image" id="image" >
+        </label>
+    </div>
+       
+</fieldset>
+<br>
+<br>
+
+        <button type="submit">Send Message</button>
+        <input type="submit" value="Send" name="submiform">
+        <input type="reset" value="Reset" name="reset">
+
+    </form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>
